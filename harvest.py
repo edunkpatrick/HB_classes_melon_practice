@@ -54,7 +54,7 @@ def make_melon_types():
 
     return all_melon_types
 
-all_melon_types = make_melon_types()
+list_of_melons = make_melon_types()
 
 
 def print_pairing_info(melon_types):
@@ -126,7 +126,7 @@ def make_melons(melon_types):
     
     return melons
 
-melons = make_melons(all_melon_types)
+melons = make_melons(list_of_melons)
 # print("these are melons")
 # print(melons)
 # print("these are all melon types")
